@@ -1,5 +1,7 @@
 # Video-Captioning
-An implement of the paper &lt;Sequence to Sequence -- Video to Text> in Tensorflow 1.0 
+An implement of the paper &lt;Sequence to Sequence -- Video to Text> in Tensorflow 1.0
+
+And I add attention mechanism to it
 
 The details was described in __introduction.pdf__.
 
