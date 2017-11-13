@@ -1,3 +1,4 @@
+![MIT](https://badges.frapsoft.com/os/mit/mit.svg?v=102)
 # Video-Captioning
 An implement of the paper &lt;Sequence to Sequence -- Video to Text> in Tensorflow 1.0
 
