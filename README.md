@@ -8,7 +8,7 @@ An implement of the paper [Sequence to Sequence -- Video to Text](https://arxiv.
 
 And add attention mechanism to it
 
-The details was described in __introduction.pdf__.
+The details was described in [__introduction.pdf__](https://github.com/brianhuang1019/Video-Captioning/blob/master/introduction.pdf).
 
 ## run the code
 ```bash
