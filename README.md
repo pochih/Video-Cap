@@ -24,3 +24,6 @@ The details was described in [__introduction.pdf__](https://github.com/brianhuan
 ```bash
 ./test.sh
 ```
+
+## Author
+Po-Chih Huang / [@brianhuang1019](http://brianhuang1019.github.io/)
