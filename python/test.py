@@ -16,7 +16,6 @@ import bleu_eval
 #=====================================================
 video_test_feat_path = './data/test_features'
 
-video_train_data_path = './data/video_corpus.csv'
 video_test_data_path = './data/video_corpus.csv'
 
 testing_data = './data/testing_id.txt'
