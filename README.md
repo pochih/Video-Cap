@@ -23,6 +23,9 @@
 
 ## run the code
 ```bash
+pip install -r requirements.txt
+```
+```bash
 ./run.sh data/testing_id.txt data/test_features
 ```
 
@@ -45,6 +48,9 @@ take a look at [data/test_features](data/test_features)
 you can use "data/test_features" directory for convience
 
 ## train the code
+```bash
+pip install -r requirements.txt
+```
 ```bash
 ./train.sh
 ```
