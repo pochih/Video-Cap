@@ -1,5 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-150x25.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+
 ## Video-Captioning
 
 <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='https://vsubhashini.github.io/imgs/S2VTarchitecture.png' padding='5px' height="250px"></img>
@@ -9,7 +10,6 @@
 
 - Beside the basic model, I add attention mechanism to the original one. The attention mechanism is reference to an ICLR2015 paper [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
 
-- The details was described in [__introduction.pdf__](https://github.com/brianhuang1019/Video-Captioning/blob/master/introduction.pdf).
 
 ## performance
 |method|BLEU@1 score|
@@ -21,10 +21,28 @@
 
 **seq2seq+attention is my improvement to the paper's model
 
-## run the code with pre-trained weights
+## run the code
 ```bash
-./run.sh <testing_video ids> <testing_video features>
+./run.sh data/testing_id.txt data/test_features
 ```
+
+for details, run.sh needs two parameters
+```bash
+./run.sh <video_id_file> <path_to_video_features>
+```
+- video_id_file
+
+a txt file with video id
+
+you can use [data/testing_id.txt](data/testing_id.txt) for convience
+
+- path_to_video_features
+
+a path contains video features, each video feature should be a *.npy file
+
+take a look at [data/test_features](data/test_features)
+
+you can use "data/test_features" directory for convience
 
 ## train the code
 ```bash
@@ -33,8 +51,13 @@
 
 ## test the code
 ```bash
-./test.sh
+./test.sh <path_to_model>
 ```
+- path_to_model
+
+the path to trained model
+
+type "models/model-2380" to use pre-trained model
 
 ## Author
 Po-Chih Huang / [@brianhuang1019](http://brianhuang1019.github.io/)
