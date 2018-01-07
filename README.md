@@ -26,7 +26,7 @@
 ./run.sh <testing_video ids> <testing_video features>
 ```
 
-## train the code from scratch
+## train the code
 ```bash
 ./train.sh
 ```
