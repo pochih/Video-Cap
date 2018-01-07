@@ -14,10 +14,8 @@ import bleu_eval
 #=====================================================
 # Global Parameters
 #=====================================================
-video_train_feat_path = './data/train_features'
 video_test_feat_path = './data/test_features'
 
-video_train_data_path = './data/video_corpus.csv'
 video_test_data_path = './data/video_corpus.csv'
 
 testing_data = './data/testing_id.txt'
