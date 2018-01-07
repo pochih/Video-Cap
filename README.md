@@ -5,9 +5,9 @@
 <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='https://vsubhashini.github.io/imgs/S2VTarchitecture.png' padding='5px' height="250px"></img>
 <a href='https://vsubhashini.github.io/imgs/S2VTarchitecture.png'>Image src</a>
 
-An implement of the paper [Sequence to Sequence -- Video to Text](https://arxiv.org/abs/1505.00487) in Tensorflow 1.0
+An implement of the ICCV2015 paper [Sequence to Sequence -- Video to Text](https://arxiv.org/abs/1505.00487) in Tensorflow 1.0
 
-And add attention mechanism to it
+And add attention mechanism to the original model
 
 The details was described in [__introduction.pdf__](https://github.com/brianhuang1019/Video-Captioning/blob/master/introduction.pdf).
 
