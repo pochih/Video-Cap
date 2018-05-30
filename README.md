@@ -6,7 +6,7 @@
 <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='https://vsubhashini.github.io/imgs/S2VTarchitecture.png' padding='5px' height="250px"></img>
 <a href='https://vsubhashini.github.io/imgs/S2VTarchitecture.png'>Image src</a>
 
-- This repository is an implement of an ICCV 15' paper [Sequence to Sequence -- Video to Text](https://arxiv.org/abs/1505.00487) in Tensorflow 1.0
+- This repository is an implement of an ICCV '15 paper [Sequence to Sequence -- Video to Text](https://arxiv.org/abs/1505.00487) in Tensorflow 1.0
 
 
 ## performance
